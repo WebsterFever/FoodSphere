@@ -1,0 +1,14 @@
+{
+  "name": "foodsphere",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@10.17.1",
+  "scripts": {
+    "dev": "pnpm --parallel --filter @foodsphere/web --filter @foodsphere/api dev",
+    "build": "pnpm -r build",
+    "lint": "pnpm -r lint",
+    "typecheck": "pnpm -r typecheck",
+    "test": "pnpm -r test"
+  },
+  "engines": { "node": ">=20" }
+}
